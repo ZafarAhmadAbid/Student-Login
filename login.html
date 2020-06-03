@@ -1,0 +1,52 @@
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+    body {
+        background-color: white;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    
+    .heading-text {
+        text-align: left;
+    }
+    
+    .student-portal {
+        box-sizing: border-box;
+        width: 350px;
+        height: 290px;
+        margin-right: 25px;
+        margin-left: 5px;
+        background-color: silver;
+        border-style: solid;
+        border-width: 1px;
+        border-color: grey;
+        font-family: sans-serif;
+        text-align: center;
+        display: inline-block;
+        box-shadow: 0px 1px 5px 3px grey;
+    }
+</style>
+<!DOCTYPE HTML>
+<html>
+<div class="heading-text">
+    <h1 style="font-family: lobster, sans-serif; font-size: 50px;">Professor's 3 Stars Academy</h1>
+    <h1 style="text-align: center; font-family: sans-serif;">Student Portal</h1>
+</div>
+<div class="student-portal">
+    <h4>Enter ID to Sign In</h4>
+    <p>Enter Username
+    </p>
+    <input style="height: 25px; width: 200px;" type="user name" placeholder="Student Name">
+    <p>Enter Password
+    </p>
+    <input style="height: 25px; width: 200px; " type="password" placeholder="Password">
+    <form action="/submit-student-profile">
+
+        <button style="height: 30px; width: 70px;" type="submit">Sign In</button><label><br><input type="checkbox">
+                                     keep me logged in</label>
+    </form>
+</div>
+
+</html>
